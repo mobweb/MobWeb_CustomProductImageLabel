@@ -1,6 +1,6 @@
 # MobWeb_CustomProductImageLabel extension for Magento
 
-A simple Magento extension that allows to dynamically modify a product's URL key before the product is saved.
+A simple Magento extension that allows to dynamically modify a product image's title/label.
 
 ## Installation
 
