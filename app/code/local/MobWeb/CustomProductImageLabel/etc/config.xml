@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MobWeb_CustomProductImageLabel>
+            <version>0.1.0</version>
+        </MobWeb_CustomProductImageLabel>
+    </modules>
+    <global>
+        <helpers>
+            <customproductimagelabel>
+                <class>MobWeb_CustomProductImageLabel_Helper</class>
+            </customproductimagelabel>
+        </helpers>
+        <blocks>
+            <catalog>
+                <rewrite>
+                    <product_view_media>MobWeb_CustomProductImageLabel_Block_Product_View_Media</product_view_media>
+                </rewrite>
+            </catalog>
+        </blocks>
+    </global>
+ </config>
